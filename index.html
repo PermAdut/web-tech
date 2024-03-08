@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Магазин Товаров</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/Logo.svg" class="header__logo">
+            <h1 class="header__title">Добро пожаловать в Магазин автомобилей</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="search.html" class="nav__link">Забронировать</a></li>
+                    <li class="nav__item"><a href="aboutus.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="registration.html" class="nav__link">Регистрация</a></li>
+                </ul>
+            </nav>
+            <form class="header__form">
+                <input class="header__input" type="text"placeholder="Поиск...">
+                <button class="header__btn" type="submit">Найти</button>
+            </form>
+        </div>
+    </header>
+
+    <section class="news">
+        <div class="container">
+            <h2 class="news__title">О нас</h2>                     
+            <div class="news__body">
+                <p class="news__body-text"><span>Interio &copy;</span>: Автомобили мира - автомобильный портал, предоставляющий оперативную и достоверную информацию об автомобильном рынке: автомобилях, автомобильных компаниях, запасных частях и аксессуарах. Базовый раздел сайта, автомобильный каталог, содержит подробную информацию по всем распространенным на российском рынке моделям автомобилей. Также на портале представлены предложения автосалонов, информация об их услугах, обзоры автомобильного рынка, советы по выбору запасных частей и аксессуаров, лента автомобильных новостей и многое другое. Сервер предназначен для автолюбителей и профессионалов - всех тех, кто интересуется автомобилями, новостями автомобильного рынка, заинтересован в покупке, продаже, техническом обслуживании и ремонте автомобиля.</p>
+                <h2 class="news__title">Наши товары:</h2> 
+                <div class="news__flex__content">
+                    <div class="flex__item">
+                        <img src="img/land-cruiser.png">
+                        <h3 class="flex__title">toyota land cruiser</h3>
+                        <h4 class="flex__body">Доступно сейчас</h4>
+                    </div>
+                    <div class="flex__item">
+                        <img src="img/mersedes.jpg">
+                        <h3 class="flex__title">mercedes benz e-class</h3>
+                        <h4 class="flex__body">Доступно сейчас</h4>
+                    </div>
+                    <div class="flex__item">
+                        <img src="img/panamera.png">
+                        <h3 class="flex__title">porsche panamera</h3>
+                        <h4 class="flex__body">Доступно сейчас</h4>
+                    </div>
+                </div>
+                <p class="news__body-email">E-Mail: <a href="egor1099@mail.ru" class="news__body-link">egor1099@mail.ru</a></p>      
+            </div>
+        </div>
+    </section>
+    
+    <section class="stats">
+        <div class="container">
+            <div class="stats__grid">
+                <div class="stats__grid__item">
+                    <img src="img/ico_menu.svg">
+                    <h2 class="stats__text"><span>40+</span><br>лет на рынке</h2>
+                </div>
+                <div class="stats__grid__item">
+                    <img src="img/ico_car.svg">
+                    <h2 class="stats__text"><span>1500+</span><br>заказов</h2>
+                </div>
+                <div class="stats__grid__item">
+                    <img src="img/ico_car.svg">
+                    <h2 class="stats__text"><span>1000+</span><br>поездок</h2>
+                </div>
+                <div class="stats__grid__item">
+                    <img src="img/ico_car.svg">
+                    <h2 class="stats__text"><span>600+</span><br>клиентов</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2024 Магазин Авто</p>
+    </footer>
+
+
+</body>
+</html>

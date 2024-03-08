@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Магазин Товаров</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/Logo.svg" class="header__logo">
+            <h1 class="header__title">Добро пожаловать в Магазин автомобилей</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="search.html" class="nav__link">Забронировать</a></li>
+                    <li class="nav__item"><a href="aboutus.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="registration.html" class="nav__link">Регистрация</a></li>
+                </ul>
+            </nav>
+            <form class="header__form">
+                <input class="header__input" type="text" placeholder="Поиск...">
+                <button class="header__btn" type="submit">Найти</button>
+            </form>
+        </div>
+    </header>
+
+    <section class="aboutus">
+        <div class="container">
+            <img class="aboutus__img" src="img/Logo.svg"></img>
+            <div class="aboutus__review">
+                <h2 class="aboutus__review__main__title">Последние отзывы</h2>
+                <div class="aboutus__review__flex">
+                <div class="aboutus__review__flex__item">
+                    <img src="img/user.png" alt="" class="people__img">
+                    <h3 class="aboutus__review__title">Эдуард Генадьевич</h3>
+                    <div class="aboutus__star">
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="off"></div>
+                    </div>
+                    <p class="aboutus__review__text">Отличный сервис. Было бы круто, если бы процедуру доставки ускороили.</p>
+                </div>
+                <div class="aboutus__review__flex__item">
+                    <img src="img/user.png" alt="" class="people__img">
+                    <h3 class="aboutus__review__title">Александр Шмаргун</h3>
+                    <div class="aboutus__star">
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                    </div>
+                    <p class="aboutus__review__text">Машиной доволен. Планирую ездить на ней еще 10 лет.</p>
+                </div>
+                <div class="aboutus__review__flex__item">
+                    <img src="img/user.png" alt="" class="people__img">
+                    <h3 class="aboutus__review__title">Аноним</h3>
+                    <div class="aboutus__star">
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                        <div class="on"></div>
+                    </div>
+                    <p class="aboutus__review__text">Взял в аренду машину на 3 дня. Сервис лучший, даже бензин оплатили!!!</p>
+                </div>
+                </div>
+                <div class="aboutus__review__create">
+                    <input type="text" placeholder="Ваш отзыв...">
+                    <button class="aboutus__review__btn">Оставить отзыв</button>
+                </div>    
+            </div>
+            <div class="aboutus__our__sertificates">
+                <h2 class="aboutus__review__main__title">Описание нашей компании</h2>
+                <p class="aboutus__our__sertificates__text"><span>Interio &copy;</span>: Автомобили мира - автомобильный портал, предоставляющий оперативную и достоверную информацию об автомобильном рынке: автомобилях, автомобильных компаниях, запасных частях и аксессуарах. Базовый раздел сайта, автомобильный каталог, содержит подробную информацию по всем распространенным на российском рынке моделям автомобилей. Также на портале представлены предложения автосалонов, информация об их услугах, обзоры автомобильного рынка, советы по выбору запасных частей и аксессуаров, лента автомобильных новостей и многое другое. Сервер предназначен для автолюбителей и профессионалов - всех тех, кто интересуется автомобилями, новостями автомобильного рынка, заинтересован в покупке, продаже, техническом обслуживании и ремонте автомобиля.</p>
+                <h2 class="aboutus__review__main__title">Наша лицензия</h2>
+                <img src="img/lic.jpeg" alt="" class="aboutus__lic__img">
+                <a class="aboutus__download__link" href="#">Скачать в формате .pdf</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2024 Магазин Авто</p>
+    </footer>
+</body>
+</html>

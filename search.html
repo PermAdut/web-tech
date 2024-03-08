@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Магазин Товаров</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="img/Logo.svg" class="header__logo">
+            <h1 class="header__title">Добро пожаловать в Магазин автомобилей</h1>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="catalog.html" class="nav__link">Каталог</a></li>
+                    <li class="nav__item"><a href="search.html" class="nav__link">Забронировать</a></li>
+                    <li class="nav__item"><a href="aboutus.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="registration.html" class="nav__link">Регистрация</a></li>
+                </ul>
+            </nav>
+            <form class="header__form">
+                <input class="header__input" type="text"placeholder="Поиск...">
+                <button class="header__btn" type="submit">Найти</button>
+            </form>
+        </div>
+        
+    </header>
+    
+    <div class="illustarate__block">
+        <div><img src="img/land-cruiser.png" alt=""></div>
+        <div><img src="img/mersedes.jpg" alt=""></div>
+        <div><img src="img/range.jpg" alt=""></div>
+        <div><img src="img/panamera.png" alt=""></div>
+        <div><img src="img/land-cruiser.png" alt=""></div>   
+    </div>
+
+    <section class="book">
+        <div class="container">
+            <div class="book__blocks__flex">
+            <div class="overview__block">
+                <h2 class="overview__title">Range Rover Sport</h2>
+                <div class="overview__flex">
+                    <div class="overview__flex__item">
+                        <img src="img/tablelogo.svg" alt="">
+                        <h3 class="overview__flex__item__text"><span>2022</span><br>модель</h3>
+                    </div>
+                    <div class="overview__flex__item">
+                        <img src="img/tablelogo.svg" alt="">
+                        <h3 class="overview__flex__item__text"><span>7</span><br>мест</h3>
+                    </div>
+                    <div class="overview__flex__item">
+                        <img src="img/tablelogo.svg" alt="">
+                        <h3 class="overview__flex__item__text">бензин</h3>
+                    </div>
+                </div>
+                <div class="overview__info">
+                    <button class="overview__btn">Полная информация</button>
+                    <h4 class="access__text">Доступности</h4>
+                    <p class="overview__info__text">Range Rover Sport - британский роскошный среднеразмерный внедорожник производства Land Rover . Производство первого поколения (кодовое имя: L320) началось в 2005 году, а в 2013 году его заменило второе поколение Sport (кодовое имя: L494).</p>
+                </div>
+            </div>
+            <div class="book__block">
+                <div class="book__title__inline">
+                    <div class="book__title__item">
+                        <h2 class="book__title">Минск</h2>
+                        <img src="img/gpslogo.svg" alt="">
+                    </div>
+                    <div class="book__title__item">
+                        <h2 class="book__title">&dollar;200 в день</h2>
+                    </div>
+                </div>
+                <div class="book__registration__area">
+                    <input class="book__registration__input" placeholder="Введите свой город:">
+                    <input class="book__registration__input" placeholder="С:">
+                    <input class="book__registration__input" placeholder="До:">
+                    <textarea class="book__message__input" placeholder="Сообщение" ></textarea>
+                    <button class="book__btn">забронировать</button>
+                </div>
+            </div>
+            
+        </div>
+         <div class="end__line"></div>
+         <h2 class="book__title">Похожие авто</h2>
+         <div class="catalog__offers__flex__item">
+             <img src="img/range.jpg" alt="">
+             <h3 class="catalog__offers__title">Range rover sport &dollar;100 в день</h3>
+             <div class="catalog__offers__text__flex">
+                 <div class="catalog__offers__text"><img src="img/manlogo.svg" alt=""><p>7 мест</p></div>
+                 <div class="catalog__offers__text"><img src="img/tablelogo.svg" alt=""><p>2022 модель</p></div>
+                 <div class="catalog__offers__text"><img src="img/carlogo.svg" alt=""><p>Мощный двигатель</p></div>
+                 <div class="catalog__offers__text"><img src="img/gpslogo.svg" alt=""><p>Минск</p></div>
+             </div>
+         </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2024 Магазин Авто</p>
+    </footer>
+</body>    
+
+
